@@ -1,0 +1,37 @@
+.projects-section {
+    padding: 2rem;
+    text-align: left; /* Align text to the left */
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto; /* Center the section */
+    background-color: #2a2b32; /* Background color */
+      
+    }
+    .dash {
+      color: white; /* Color of the dash */
+      margin-right: 1rem; /* Space between dash and text */
+      font-size: 1.5rem; /* Size of the dash */
+    }
+    
+    .projects-item{
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+  
+    .projects-item a{
+      color: #fff;
+    }
+  
+  
+    .projects-item a:hover {
+      color: #61dafb;
+    }
+  
+    .projects-item a:active {
+      color: #f547b8;
+    }
+  
+    
+   
+   
+    

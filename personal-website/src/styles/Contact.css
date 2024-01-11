@@ -1,0 +1,30 @@
+#contact {
+    padding: 2rem;
+    background-color: #2a2b32;
+    text-align: center;
+  }
+
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-icon {
+    width: 64px; /* or any other fixed size */
+    height: 64px;
+    margin: 0 30px; /* This sets the space between the icons */
+  }
+  
+  .contact-icon img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-icon:hover img {
+    transform: scale(1.2);
+  }
+
+  

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500;700&display=swap');
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+  }
+  .nav-links {
+    list-style: none;
+    padding: 0;
+  }
+  .nav-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-bar a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease-in;
+  }
+  
+  .nav-bar a:hover{
+    color: #61dafb;
+  }
+
+  .nav-bar a:focus{
+    color: #f547b8;
+  }
+
+  .name{
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}

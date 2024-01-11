@@ -1,0 +1,35 @@
+.about-section {
+    padding: 2rem;
+    text-align: left; /* Align text to the left */
+    max-width: 800px; /* Adjust width as needed */
+    margin: auto; /* Center the section */
+    background-color: #2a2b32; /* Background color */
+  }
+  
+  .about-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Space between items */
+  }
+  
+  .dash {
+    color: white; /* Color of the dash */
+    margin-right: 1rem; /* Space between dash and text */
+    font-size: 1.5rem; /* Size of the dash */
+  }
+  
+  .about-item a {
+    margin: 0; /* Remove default margin */
+    color: white; /* Text color */
+    font-size: 1.2rem; /* Text size */
+  }
+  
+  .about-item a:hover {
+    color: #61dafb; /* Text color on hover */
+  }
+
+  .about-item a:active {
+    color: #f547b8; /* Text color on active */
+  }
+  
+  
