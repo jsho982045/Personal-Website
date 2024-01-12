@@ -4,7 +4,7 @@ import '../styles/Projects.css'; // We will create this CSS file next.
 function Projects() {
   return (
     <section id="projects" className="projects-section">
-      <h2>My Projects</h2>
+      <h2>My Projects:</h2>
       <div className="projects-item">
       <span className="dash">&mdash;</span>
       <a href="https://jsho982045.github.io/Calculator/">Calculator</a>
