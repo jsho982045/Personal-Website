@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
 function About() {
@@ -8,15 +9,15 @@ function About() {
       <ul>
         <div className="about-item">
           <span className="dash">&mdash;</span>
-          <p><a href="/about/software-engineer">Software Engineer</a></p>
+          <p><Link to="/about/software-engineer">Software Engineer</Link></p>
           </div>
           <div className="about-item">
              <span className="dash">&mdash;</span>
-             <p><a href="/about/computer-science-student">Computer Science Student</a></p>
+             <p><Link to="/about/computer-science-student">Computer Science Student</Link></p>
         </div>
         <div className="about-item">
           <span className="dash">&mdash;</span>
-          <p><a href = "/about/teacher">Teacher</a></p>
+          <p><Link to= "/about/teacher">Teacher</Link></p>
           </div>
         </ul>
     </section>
