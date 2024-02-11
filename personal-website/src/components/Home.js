@@ -6,7 +6,6 @@ function Home() {
     <div className="Welcome">
       <h1>Welcome to My Portfolio</h1>
       <p>Please, make youself at home</p>
-      {/* Add more content as needed */}
     </div>
   );
 }

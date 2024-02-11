@@ -1,0 +1,5 @@
+
+.course-list {
+  font-family: 'sans-serif', monospace; /* Monospaced font for the course list */
+  word-wrap: break-word; /* Break the word to prevent overflow */
+}
