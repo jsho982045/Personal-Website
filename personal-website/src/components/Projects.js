@@ -18,6 +18,10 @@ function Projects() {
       <a href="https://jsho982045.github.io/Checkers/">Checkers</a>
       </div>
       <div className="projects-item">
+        <span className="dash">&mdash;</span>
+        <a href="https://jsho982045.github.io/NewsApp/">NewsApp</a>
+      </div>
+      <div className="projects-item">
       <span className="dash">&mdash;</span>
       <a href="https://jsho982045.github.io/Pacman/">Pacman</a>
       </div>
