@@ -45,6 +45,10 @@ function Projects() {
       <span className="dash">&mdash;</span>
       < a href="https://jsho982045.github.io/To-Do-List/">To Do List</a>
       </div>
+      <div className="projects-item">
+      <span className="dash">&mdash;</span>
+      <a href="https://jsho982045.github.io/Wordle/">Wordle</a>
+      </div>
     </section>
   );
 }
